@@ -57,17 +57,17 @@
 		A40232D31C1086F90012AD6A /* TypeCasting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
 		A40232D61C1093400012AD6A /* NestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestClass.swift; sourceTree = "<group>"; };
 		A40232D91C1131C30012AD6A /* ExtensionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionType.swift; sourceTree = "<group>"; };
-		A41400D11BF08D5B000DFC6A /* ProSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41400D11BF08D5B000DFC6A /* Swift_JF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_JF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41400D41BF08D5B000DFC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41400D61BF08D5B000DFC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A41400D91BF08D5B000DFC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41400DB1BF08D5B000DFC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41400DE1BF08D5B000DFC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41400E01BF08D5B000DFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41400E51BF08D5B000DFC6A /* ProSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41400E51BF08D5B000DFC6A /* Swift_JF.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_JF.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41400E91BF08D5B000DFC6A /* ProSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftTests.swift; sourceTree = "<group>"; };
 		A41400EB1BF08D5B000DFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41400F01BF08D5B000DFC6A /* ProSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41400F01BF08D5B000DFC6A /* Swift_JF.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_JF.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41400F41BF08D5B000DFC6A /* ProSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftUITests.swift; sourceTree = "<group>"; };
 		A41400F61BF08D5B000DFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42CB4C91C25003B004E8641 /* JFClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFClosure.swift; sourceTree = "<group>"; };
@@ -166,9 +166,9 @@
 		A41400D21BF08D5B000DFC6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A41400D11BF08D5B000DFC6A /* ProSwift.app */,
-				A41400E51BF08D5B000DFC6A /* ProSwiftTests.xctest */,
-				A41400F01BF08D5B000DFC6A /* ProSwiftUITests.xctest */,
+				A41400D11BF08D5B000DFC6A /* Swift_JF.app */,
+				A41400E51BF08D5B000DFC6A /* Swift_JF.xctest */,
+				A41400F01BF08D5B000DFC6A /* Swift_JF.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,9 +283,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A41400D01BF08D5B000DFC6A /* ProSwift */ = {
+		A41400D01BF08D5B000DFC6A /* Swift_JF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41400F91BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwift" */;
+			buildConfigurationList = A41400F91BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JF" */;
 			buildPhases = (
 				A41400CD1BF08D5B000DFC6A /* Sources */,
 				A41400CE1BF08D5B000DFC6A /* Frameworks */,
@@ -295,14 +295,14 @@
 			);
 			dependencies = (
 			);
-			name = ProSwift;
+			name = Swift_JF;
 			productName = ProSwift;
-			productReference = A41400D11BF08D5B000DFC6A /* ProSwift.app */;
+			productReference = A41400D11BF08D5B000DFC6A /* Swift_JF.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A41400E41BF08D5B000DFC6A /* ProSwiftTests */ = {
+		A41400E41BF08D5B000DFC6A /* Swift_JFTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41400FC1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwiftTests" */;
+			buildConfigurationList = A41400FC1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JFTests" */;
 			buildPhases = (
 				A41400E11BF08D5B000DFC6A /* Sources */,
 				A41400E21BF08D5B000DFC6A /* Frameworks */,
@@ -313,14 +313,14 @@
 			dependencies = (
 				A41400E71BF08D5B000DFC6A /* PBXTargetDependency */,
 			);
-			name = ProSwiftTests;
+			name = Swift_JFTests;
 			productName = ProSwiftTests;
-			productReference = A41400E51BF08D5B000DFC6A /* ProSwiftTests.xctest */;
+			productReference = A41400E51BF08D5B000DFC6A /* Swift_JF.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A41400EF1BF08D5B000DFC6A /* ProSwiftUITests */ = {
+		A41400EF1BF08D5B000DFC6A /* Swift_JFUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41400FF1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwiftUITests" */;
+			buildConfigurationList = A41400FF1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JFUITests" */;
 			buildPhases = (
 				A41400EC1BF08D5B000DFC6A /* Sources */,
 				A41400ED1BF08D5B000DFC6A /* Frameworks */,
@@ -331,9 +331,9 @@
 			dependencies = (
 				A41400F21BF08D5B000DFC6A /* PBXTargetDependency */,
 			);
-			name = ProSwiftUITests;
+			name = Swift_JFUITests;
 			productName = ProSwiftUITests;
-			productReference = A41400F01BF08D5B000DFC6A /* ProSwiftUITests.xctest */;
+			productReference = A41400F01BF08D5B000DFC6A /* Swift_JF.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -359,7 +359,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A41400CC1BF08D5B000DFC6A /* Build configuration list for PBXProject "ProSwift" */;
+			buildConfigurationList = A41400CC1BF08D5B000DFC6A /* Build configuration list for PBXProject "Swift_JF" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -372,9 +372,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A41400D01BF08D5B000DFC6A /* ProSwift */,
-				A41400E41BF08D5B000DFC6A /* ProSwiftTests */,
-				A41400EF1BF08D5B000DFC6A /* ProSwiftUITests */,
+				A41400D01BF08D5B000DFC6A /* Swift_JF */,
+				A41400E41BF08D5B000DFC6A /* Swift_JFTests */,
+				A41400EF1BF08D5B000DFC6A /* Swift_JFUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -456,12 +456,12 @@
 /* Begin PBXTargetDependency section */
 		A41400E71BF08D5B000DFC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A41400D01BF08D5B000DFC6A /* ProSwift */;
+			target = A41400D01BF08D5B000DFC6A /* Swift_JF */;
 			targetProxy = A41400E61BF08D5B000DFC6A /* PBXContainerItemProxy */;
 		};
 		A41400F21BF08D5B000DFC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A41400D01BF08D5B000DFC6A /* ProSwift */;
+			target = A41400D01BF08D5B000DFC6A /* Swift_JF */;
 			targetProxy = A41400F11BF08D5B000DFC6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				INFOPLIST_FILE = ProSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swift_JF;
 			};
 			name = Debug;
 		};
@@ -585,7 +585,7 @@
 				INFOPLIST_FILE = ProSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swift_JF;
 			};
 			name = Release;
 		};
@@ -596,8 +596,8 @@
 				INFOPLIST_FILE = ProSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProSwift.app/ProSwift";
+				PRODUCT_NAME = Swift_JF;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_JF.app/Swift_JF";
 			};
 			name = Debug;
 		};
@@ -608,8 +608,8 @@
 				INFOPLIST_FILE = ProSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProSwift.app/ProSwift";
+				PRODUCT_NAME = Swift_JF;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_JF.app/Swift_JF";
 			};
 			name = Release;
 		};
@@ -619,7 +619,7 @@
 				INFOPLIST_FILE = ProSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swift_JF;
 				TEST_TARGET_NAME = ProSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -631,7 +631,7 @@
 				INFOPLIST_FILE = ProSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JF.ProSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swift_JF;
 				TEST_TARGET_NAME = ProSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -640,7 +640,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A41400CC1BF08D5B000DFC6A /* Build configuration list for PBXProject "ProSwift" */ = {
+		A41400CC1BF08D5B000DFC6A /* Build configuration list for PBXProject "Swift_JF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41400F71BF08D5B000DFC6A /* Debug */,
@@ -649,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41400F91BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwift" */ = {
+		A41400F91BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41400FA1BF08D5B000DFC6A /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41400FC1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwiftTests" */ = {
+		A41400FC1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JFTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41400FD1BF08D5B000DFC6A /* Debug */,
@@ -667,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41400FF1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "ProSwiftUITests" */ = {
+		A41400FF1BF08D5B000DFC6A /* Build configuration list for PBXNativeTarget "Swift_JFUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41401001BF08D5B000DFC6A /* Debug */,

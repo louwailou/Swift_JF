@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A41400D01BF08D5B000DFC6A"
-               BuildableName = "ProSwift.app"
-               BlueprintName = "ProSwift"
-               ReferencedContainer = "container:ProSwift.xcodeproj">
+               BuildableName = "Swift_JF.app"
+               BlueprintName = "Swift_JF"
+               ReferencedContainer = "container:Swift_JF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A41400E41BF08D5B000DFC6A"
-               BuildableName = "ProSwiftTests.xctest"
-               BlueprintName = "ProSwiftTests"
-               ReferencedContainer = "container:ProSwift.xcodeproj">
+               BuildableName = "Swift_JF.xctest"
+               BlueprintName = "Swift_JFTests"
+               ReferencedContainer = "container:Swift_JF.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A41400EF1BF08D5B000DFC6A"
-               BuildableName = "ProSwiftUITests.xctest"
-               BlueprintName = "ProSwiftUITests"
-               ReferencedContainer = "container:ProSwift.xcodeproj">
+               BuildableName = "Swift_JF.xctest"
+               BlueprintName = "Swift_JFUITests"
+               ReferencedContainer = "container:Swift_JF.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41400D01BF08D5B000DFC6A"
-            BuildableName = "ProSwift.app"
-            BlueprintName = "ProSwift"
-            ReferencedContainer = "container:ProSwift.xcodeproj">
+            BuildableName = "Swift_JF.app"
+            BlueprintName = "Swift_JF"
+            ReferencedContainer = "container:Swift_JF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41400D01BF08D5B000DFC6A"
-            BuildableName = "ProSwift.app"
-            BlueprintName = "ProSwift"
-            ReferencedContainer = "container:ProSwift.xcodeproj">
+            BuildableName = "Swift_JF.app"
+            BlueprintName = "Swift_JF"
+            ReferencedContainer = "container:Swift_JF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A41400D01BF08D5B000DFC6A"
-            BuildableName = "ProSwift.app"
-            BlueprintName = "ProSwift"
-            ReferencedContainer = "container:ProSwift.xcodeproj">
+            BuildableName = "Swift_JF.app"
+            BlueprintName = "Swift_JF"
+            ReferencedContainer = "container:Swift_JF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

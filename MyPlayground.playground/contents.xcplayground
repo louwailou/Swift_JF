@@ -9,5 +9,7 @@
         <page name='JFFunction'/>
         <page name='JFClass'/>
         <page name='JFInheritance'/>
+        <page name='JFTypeCasting'/>
+        <page name='JFExtension'/>
     </pages>
 </playground>
