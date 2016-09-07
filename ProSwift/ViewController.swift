@@ -34,12 +34,7 @@ class ViewController: UIViewController {
         btn.addTarget(self, action: Selector("pushNewController"), forControlEvents:.TouchUpInside);
         self.view.addSubview(btn);
         
-        
-        let blogic = true
-        if blogic{
-            print("is ....");
-        }
-       
+      
         
         //self .implictUnwarpOptional();
         //self.defineCollectionF();

@@ -18,6 +18,7 @@
 		A41400DF1BF08D5B000DFC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41400DD1BF08D5B000DFC6A /* LaunchScreen.storyboard */; };
 		A41400EA1BF08D5B000DFC6A /* ProSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41400E91BF08D5B000DFC6A /* ProSwiftTests.swift */; };
 		A41400F51BF08D5B000DFC6A /* ProSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41400F41BF08D5B000DFC6A /* ProSwiftUITests.swift */; };
+		A41A43E41D5783D20095B7D9 /* prototype_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A43E31D5783D20095B7D9 /* prototype_pattern.swift */; };
 		A42CB4CA1C25003B004E8641 /* JFClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CB4C91C25003B004E8641 /* JFClosure.swift */; };
 		A42CB4CD1C255B11004E8641 /* JFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CB4CC1C255B11004E8641 /* JFExtension.swift */; };
 		A42CB4CF1C264E05004E8641 /* JFCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CB4CE1C264E05004E8641 /* JFCopy.swift */; };
@@ -70,6 +71,7 @@
 		A41400F01BF08D5B000DFC6A /* Swift_JF.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_JF.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41400F41BF08D5B000DFC6A /* ProSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSwiftUITests.swift; sourceTree = "<group>"; };
 		A41400F61BF08D5B000DFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41A43E31D5783D20095B7D9 /* prototype_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prototype_pattern.swift; sourceTree = "<group>"; };
 		A42CB4C91C25003B004E8641 /* JFClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFClosure.swift; sourceTree = "<group>"; };
 		A42CB4CC1C255B11004E8641 /* JFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFExtension.swift; sourceTree = "<group>"; };
 		A42CB4CE1C264E05004E8641 /* JFCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFCopy.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		A41400C81BF08D5B000DFC6A = {
 			isa = PBXGroup;
 			children = (
+				A41A43E31D5783D20095B7D9 /* prototype_pattern.swift */,
 				A4D524D81D3A2307007D348E /* MyPlayground.playground */,
 				A41400D31BF08D5B000DFC6A /* ProSwift */,
 				A41400E81BF08D5B000DFC6A /* ProSwiftTests */,
@@ -425,6 +428,7 @@
 				A4FD66081C15301A00572661 /* JFProtocol.swift in Sources */,
 				A42CB4CD1C255B11004E8641 /* JFExtension.swift in Sources */,
 				A40232D71C1093400012AD6A /* NestClass.swift in Sources */,
+				A41A43E41D5783D20095B7D9 /* prototype_pattern.swift in Sources */,
 				A47169671C04B7C500F5CD34 /* JFBasicClass.swift in Sources */,
 				A42CB4CF1C264E05004E8641 /* JFCopy.swift in Sources */,
 				A448152B1C23DAC6008DA06F /* JFArray.swift in Sources */,

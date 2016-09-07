@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
-
+import UIKit
 //: ##类
 
 /*: 1. 存储属性 类和结构体
@@ -217,7 +217,7 @@ class SomeClass {
         var someValue = "sunjianfeng";
         return someValue
     }()
-    
+    var nameStr:String = "1111" ;
 }
 
 
@@ -381,3 +381,29 @@ if let beginsWithThe =
 
 
 //: [Next](@next)
+
+
+
+
+
+
+// 协议扩展
+
+public protocol Then {}
+
+extension Then where Self:AnyObject{
+    public func thens(@noescape block: Self-> Void)-> Self{
+      block(self);
+      return self;
+     }
+}
+
+extension NSObject: Then{}
+
+
+let label = UILabel();
+label.thens {
+ $0.text = "name";
+}
+
+

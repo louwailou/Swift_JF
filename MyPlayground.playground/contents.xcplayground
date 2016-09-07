@@ -11,5 +11,6 @@
         <page name='JFInheritance'/>
         <page name='JFTypeCasting'/>
         <page name='JFExtension'/>
+        <page name='DesignPattern'/>
     </pages>
 </playground>
