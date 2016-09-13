@@ -3,5 +3,10 @@
     <pages>
         <page name='CommonPattern'/>
         <page name='FactoryMethod'/>
+        <page name='Singleton'/>
+        <page name='Command'/>
+        <page name='Adapter'/>
+        <page name='State'/>
+        <page name='Strategy'/>
     </pages>
 </playground>
