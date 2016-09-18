@@ -167,6 +167,56 @@ class Flock :Quackable
 }
 
 
+// 现在行为学家想看看呱呱叫鸭子的行为 --------- 观察者模式
+// 分析一下 谁作为观察者，谁作为被观察者(主题)
+//由主题实现此接口
+protocol QuackObservable {
+    func notifyObservers()->Void;
+    func registerObserver(observer:Observer)->Void;
+    
+}
+
+// 观察者接口
+protocol Observer {
+    func update(duck :QuackObservable);
+}
+
+class JFObservable :QuackObservable{
+    var observers:Array<Observer> = Array<Observer>()
+    var duck:QuackObservable;
+    init(duck:QuackObservable){
+        self.duck = duck;
+    }
+    
+    func notifyObservers() {
+        for item in self.observers {
+            item.update(self.duck)
+        }
+    }
+    func registerObserver(observer: Observer) {
+        self.observers.append(observer)
+    }
+}
+//
+//extension LvTouYa :QuackObservable{
+//    
+//    
+//    func notifyObservers() {
+//       self.observable.notifyObservers()
+//    }
+//    func registerObserver(observer: Observer) {
+//        self.observable.regis
+//    }
+//}
+
+
+class Quackologist :Observer{
+    func update(duck: QuackObservable) {
+        print("quackologist duck just quacked.....")
+    }
+}
+
+
 
 
 
