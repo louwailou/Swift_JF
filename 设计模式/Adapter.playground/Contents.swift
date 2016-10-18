@@ -51,7 +51,7 @@ let hole = RoundHole(radius: 5.0)
 for i in 5...10 {
   		let squarePeg = SquarePeg(width: Double(i))
   		let peg: Circularity = SquarePegAdapter(peg: squarePeg)
-  		let fit = hole.pegFits(peg)
+  		let fit = hole.pegFits(peg: peg)
   		print("width:\(i), fit:\(fit)")
 }
 
